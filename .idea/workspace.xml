@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f06ddcc-10d6-427e-b7a8-44b03a3aa9a8" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/src/Tiles.java" afterDir="false" />
+    <list default="true" id="4f06ddcc-10d6-427e-b7a8-44b03a3aa9a8" name="Changes" comment="Implemented and added a canvas">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tiles/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tiles/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tiles/GUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tiles/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tiles.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tiles.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/board.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +50,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -89,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643487058744</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implemented and added a canvas">
+      <created>1643495730405</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643495730405</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +132,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="implented a canvas" />
+    <MESSAGE value="Implemented and added a canvas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented and added a canvas" />
   </component>
 </project>

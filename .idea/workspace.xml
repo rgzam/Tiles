@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f06ddcc-10d6-427e-b7a8-44b03a3aa9a8" name="Changes" comment="added generated tiles for random color sets">
-      <change afterPath="$PROJECT_DIR$/src/Tiles/TilesGen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tiles/tiles.java" afterDir="false" />
+    <list default="true" id="4f06ddcc-10d6-427e-b7a8-44b03a3aa9a8" name="Changes" comment="added hbox laber">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tiles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tiles/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tiles/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tiles/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tiles/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tiles/Tiles/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tiles/Tiles/GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tiles/TilesGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tiles/TilesGen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tiles/tiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tiles/tiles.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643599302128</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added hbox laber">
+      <created>1643669086459</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1643669086459</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +174,7 @@
     <MESSAGE value="Constants, Board, and main tiles" />
     <MESSAGE value="No errors but couldnt get my board to show so I am going to add more setters and getters onto my board classes" />
     <MESSAGE value="added generated tiles for random color sets" />
-    <option name="LAST_COMMIT_MESSAGE" value="added generated tiles for random color sets" />
+    <MESSAGE value="added hbox laber" />
+    <option name="LAST_COMMIT_MESSAGE" value="added hbox laber" />
   </component>
 </project>

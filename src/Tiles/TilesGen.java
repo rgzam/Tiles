@@ -1,5 +1,5 @@
 package Tiles;
-
+import javafx.scene.paint.Color;
 import java.awt.*;
 import java.util.Random;
 
@@ -25,7 +25,7 @@ public class TilesGen extends Canvas {
             case 0:
             return Color.GREEN;
             case 1:
-                return Color.ORANGE;
+                return Color.DARKSLATEBLUE;
             case 2:
                 return Color.YELLOW;
         }

@@ -3,6 +3,11 @@ import javafx.beans.property.ReadOnlyBooleanWrapper;
 import javafx.scene.Parent;
 import javafx.scene.layout.FlowPane;
 import javafx.geometry.Insets;
+import javafx.scene.layout.HBox;
+import javafx.scene.text.Font;
+import javafx.scene.text.FontWeight;
+import javafx.scene.control.Button;
+
 import java.util.List;
 import java.util.ArrayList;
 
@@ -14,6 +19,8 @@ public class Board {
     int windowWidth = 660;
     int windowHeight = 660;
     int fontSize = 25;
+    int hBoxLabelSpacing = 165;
+    int hBoxButtonSpacing = 20;
 
     private FlowPane root = new FlowPane();
 
@@ -36,6 +43,23 @@ public class Board {
     public Parent getRoot(){
         return root;
     }
+    public HBox button(){
+        Button start = new Button();
+        start.setText("Restart");
+        start.setFont(setFontt());
 
+        Button exit = new Button();
+        exit.setText("Exit");
+        exit.setFont(setFontt());
+        exit.setOnMouseClicked(event -> {
+
+        });
+        HBox hBox = new HBox(hBoxButtonSpacing,start,exit);
+        hBox.setPadding(new Insets(15,0,0,20));
+        return hBox;
+    }
+    public Font setFontt() {
+        return Font.font("San", FontWeight.MEDIUM, fontSize);
+    }
 
 }

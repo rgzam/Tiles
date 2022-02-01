@@ -1,5 +1,4 @@
 package Tiles;
-import javafx.beans.property.ReadOnlyBooleanWrapper;
 import javafx.scene.Parent;
 import javafx.scene.layout.FlowPane;
 import javafx.geometry.Insets;
@@ -19,7 +18,6 @@ public class Board {
     int windowWidth = 660;
     int windowHeight = 660;
     int fontSize = 25;
-    int hBoxLabelSpacing = 165;
     int hBoxButtonSpacing = 20;
 
     private FlowPane root = new FlowPane();
@@ -29,6 +27,7 @@ public class Board {
     public void createPane(){
         root.setPrefSize(windowWidth, windowHeight  );
         root.setPadding(new Insets(20,20,0,20));
+
         List<GUI> listOfTiles= new ArrayList<>();
         for (int i = 0; i< totalTiles; i++){
             listOfTiles.add(new GUI(oneGui));
@@ -37,6 +36,7 @@ public class Board {
             GUI gui = listOfTiles.get(i);
             gui.setTranslateX(i % ROW);
             gui.setTranslateY(i / ROW);
+            root.getChildren().add(gui);
         }
 
     }

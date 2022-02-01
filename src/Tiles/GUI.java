@@ -13,7 +13,6 @@ import java.util.List;
 
 public class GUI extends StackPane {
  int hBoxLabelSpacing = 165;
- int hBoxButtonSpacing = 20;
 private static int currentCombo;
  double angleForMediumRectangle = 8;
  double angleForSmallRectangle = -15;
@@ -32,6 +31,8 @@ public int getCurrentCombo() {
  public GUI() {
 
  }
+
+
  public GUI(List<GUI> list) {
  this.gui = list;
  rectangle.setFill(null);
@@ -47,6 +48,33 @@ smallRectangle.setRotate(angleForSmallRectangle);
 
 getChildren().addAll(largeRectangle,mediumRectangle,smallRectangle);
 getChildren().add(rectangle);
+
+this.setOnMouseEntered(event -> rectangle.setStroke(Color.BLACK));
+this.setOnMouseExited(event -> rectangle.setStroke(Color.WHITE));
+
+this.setOnMouseClicked(event -> {
+ gui.add(thisGUI);
+
+ if (gui.size() == 2){
+  GUI g1 = gui.remove(0);
+  GUI g2 = gui.remove(0);
+
+  if (g1.largeRectangle.getFill().equals(g2.largeRectangle.getFill())){
+   g1.largeRectangle.setVisible(false);
+   g2.largeRectangle.setVisible(false);
+   currentCombo++;
+   label();
+  }
+  if (g1.mediumRectangle.getFill().equals(g2.mediumRectangle.getFill())){
+   g1.mediumRectangle.setVisible(false);
+   g2.mediumRectangle.setVisible(false);
+  }
+  if (g1.smallRectangle.getFill().equals(g2.smallRectangle.getFill())){
+   g1.smallRectangle.setVisible(false);
+   g2.smallRectangle.setVisible(false);
+  }
+ }
+});
 
 
  }

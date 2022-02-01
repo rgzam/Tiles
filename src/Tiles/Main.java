@@ -8,6 +8,7 @@ import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
 public class Main extends Application {
+    public static void main(String[] args) { launch(args); }
     @Override
     public void start(Stage stage) {
         stage.setTitle("Tiles");
@@ -19,6 +20,9 @@ public class Main extends Application {
         Parent root = board.getRoot();
 
         borderpane.setCenter(root);
+        borderpane.setBottom(new GUI().label());
+        borderpane.setTop(new Board().button());
+        anchorPane.getChildren().add(borderpane);
 
 
     stage.setScene(new Scene(anchorPane));
@@ -26,9 +30,5 @@ public class Main extends Application {
 
     }
 
-    public static void main(String[] args) {
-    launch();
-
-    }
 
 }

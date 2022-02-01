@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f06ddcc-10d6-427e-b7a8-44b03a3aa9a8" name="Changes" comment="added hbox laber">
+    <list default="true" id="4f06ddcc-10d6-427e-b7a8-44b03a3aa9a8" name="Changes" comment="tiles class track down all the tiles in the game">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tiles/Tiles/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tiles/Tiles/Board.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tiles/Tiles/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tiles/Tiles/GUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tiles/TilesGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tiles/TilesGen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tiles/tiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tiles/tiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tiles/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tiles/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tiles/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tiles/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tiles/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tiles/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +61,19 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tiles.Main" />
+      <module name="Tiles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tiles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Tiles" />
@@ -138,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643669086459</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="tiles class track down all the tiles in the game">
+      <created>1643671153940</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1643671153940</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +197,7 @@
     <MESSAGE value="No errors but couldnt get my board to show so I am going to add more setters and getters onto my board classes" />
     <MESSAGE value="added generated tiles for random color sets" />
     <MESSAGE value="added hbox laber" />
-    <option name="LAST_COMMIT_MESSAGE" value="added hbox laber" />
+    <MESSAGE value="tiles class track down all the tiles in the game" />
+    <option name="LAST_COMMIT_MESSAGE" value="tiles class track down all the tiles in the game" />
   </component>
 </project>

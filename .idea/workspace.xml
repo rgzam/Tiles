@@ -9,8 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f06ddcc-10d6-427e-b7a8-44b03a3aa9a8" name="Changes" comment="exit works but not restart">
+    <list default="true" id="4f06ddcc-10d6-427e-b7a8-44b03a3aa9a8" name="Changes" comment="f3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tiles.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tiles.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="module-info" />
       </list>
     </option>
   </component>
@@ -105,17 +107,25 @@
     </configuration>
     <configuration name="TilesV1.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/TilesV1.jar" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\Ricardo\Desktop\javafx-sdk-17.0.2\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2" />
     </configuration>
     <configuration name="Tiles.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/Tiles.jar" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="JAR Application.Tiles.jar" />
+      <item itemvalue="JAR Application.TilesV1.jar" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JAR Application.TilesV1.jar" />
-        <item itemvalue="JAR Application.Tiles.jar" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="JAR Application.Tiles.jar" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -193,7 +203,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643785661865</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="f2">
+      <created>1643838006166</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1643838006166</updated>
+    </task>
+    <task id="LOCAL-00011" summary="f3">
+      <created>1643838146903</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1643838146903</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +257,8 @@
     <MESSAGE value="tiles class track down all the tiles in the game" />
     <MESSAGE value="click on event when click a tile" />
     <MESSAGE value="exit works but not restart" />
-    <option name="LAST_COMMIT_MESSAGE" value="exit works but not restart" />
+    <MESSAGE value="f2" />
+    <MESSAGE value="f3" />
+    <option name="LAST_COMMIT_MESSAGE" value="f3" />
   </component>
 </project>

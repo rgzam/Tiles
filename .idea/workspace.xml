@@ -61,7 +61,11 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ricardo\IdeaProjects\Tiles" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ricardo\IdeaProjects\Tiles\out\artifacts" />
       <recent name="C:\Users\Ricardo\IdeaProjects\Tiles" />
     </key>
   </component>

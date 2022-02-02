@@ -4,7 +4,10 @@ import java.awt.*;
 import java.util.Random;
 
 public class TilesGen extends Canvas {
-
+    /**
+     * Creates three random color for big rectangle
+     * @return
+     */
     public static Color getColorBigRectangle(){
         Random random = new Random();
         int rand = random.nextInt(3);
@@ -18,6 +21,11 @@ public class TilesGen extends Canvas {
         }
         return Color.BLACK;
     }
+
+    /**
+     * Creates three random color for medium rectangle
+     * @return
+     */
     public static Color getColorMediumRectangle(){
         Random random = new Random();
         int rand = random.nextInt(3);
@@ -31,6 +39,11 @@ public class TilesGen extends Canvas {
         }
         return Color.BLACK;
     }
+
+    /**
+     * Creates three random color for small rectangle
+     * @return
+     */
     public static Color getColorSmallRectangle(){
         Random random = new Random();
         int rand = random.nextInt(3);

@@ -26,6 +26,11 @@ public class Board {
 
     GUI gui = new GUI();
     private List<GUI> oneGui = new ArrayList<>();
+
+    /**
+     * Tiles are stored in a Arraylist
+     * having constants used from global variables
+     */
     public void createPane(){
         root.setPrefSize(windowWidth, windowHeight  );
         root.setPadding(new Insets(20,20,0,20));
@@ -42,9 +47,20 @@ public class Board {
         }
 
     }
+
+    /**
+     * returns root
+     * @return
+     */
     public Parent getRoot(){
         return root;
     }
+
+    /**
+     * button created horizontally and passes into borderPane in Main
+     *
+     * @return
+     */
     public HBox button(){
         Button start = new Button();
         start.setText("Restart");
@@ -63,8 +79,13 @@ public class Board {
         hBox.setPadding(new Insets(15,0,0,20));
         return hBox;
     }
+
+    /**
+     * method to change font style and size
+     * @return
+     */
     public Font setFontt() {
-        return Font.font("San", FontWeight.MEDIUM, fontSize);
+        return Font.font("Sans", FontWeight.MEDIUM, fontSize);
     }
 
 }

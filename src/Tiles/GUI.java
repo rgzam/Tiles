@@ -2,6 +2,7 @@ package Tiles;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 
+import javafx.scene.control.ContentDisplay;
 import javafx.scene.control.Label;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.StackPane;
@@ -9,6 +10,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Text;
 
+import java.util.Collection;
 import java.util.List;
 
 
@@ -26,14 +28,22 @@ Rectangle largeRectangle = new Rectangle(100,100);
 Rectangle mediumRectangle = new Rectangle(65,65);
 Rectangle smallRectangle = new Rectangle(30,30);
 
-public int getCurrentCombo() {
+ /**
+  * returns currentCombo
+  * @return
+  */
+ public int getCurrentCombo() {
  return currentCombo;
 }
  public GUI() {
 
  }
 
-
+ /**
+  * creates a rectangle objects
+  * there are three rectangle objects i.e. large, medium, and small
+  * @param list
+  */
  public GUI(List<GUI> list) {
  this.gui = list;
  rectangle.setFill(null);
@@ -65,31 +75,44 @@ this.setOnMouseClicked(event -> {
    g2.largeRectangle.setVisible(false);
    currentCombo++;
    label();
+
+
   }
   if (g1.mediumRectangle.getFill().equals(g2.mediumRectangle.getFill())){
    g1.mediumRectangle.setVisible(false);
    g2.mediumRectangle.setVisible(false);
+
   }
   if (g1.smallRectangle.getFill().equals(g2.smallRectangle.getFill())){
    g1.smallRectangle.setVisible(false);
    g2.smallRectangle.setVisible(false);
+
   }
  }
 });
 
 
  }
- public HBox label() {
- Text currentCombo = new Text("Current Combo: " + getCurrentCombo());
- currentCombo.setText("Current Combo" +getCurrentCombo());
-  System.out.println(currentCombo);
 
+ /**
+  * Created label horizontally for combos and passed to borderPane in Main
+  * @return
+  */
+ public HBox label() {
+ //Text currentCombo = new Text("Current Combo: " + getCurrentCombo());
+ //currentCombo.setText("Current Combo " + getCurrentCombo());
+  Label currentCombo = new Label("Current Combo: " + getCurrentCombo());
+  currentCombo.getContentDisplay();
+  System.out.println(currentCombo);
   currentCombo.setFont(new Board().setFontt());
+
 
  Label longestCombo = new Label("Longest Combo: 0 ");
  longestCombo.setAlignment(Pos.BASELINE_CENTER);
+  System.out.println(longestCombo);
  longestCombo.setFont(new Board().setFontt());
  longestCombo.setPadding(new Insets(0,0,15,0));
+
   HBox hBox = new HBox(hBoxLabelSpacing, currentCombo, longestCombo);
   return  (hBox);
  }

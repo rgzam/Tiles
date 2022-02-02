@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f06ddcc-10d6-427e-b7a8-44b03a3aa9a8" name="Changes" comment="click on event when click a tile">
+    <list default="true" id="4f06ddcc-10d6-427e-b7a8-44b03a3aa9a8" name="Changes" comment="exit works but not restart">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Tiles_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tiles/Tiles/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tiles/Tiles/Board.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tiles/Tiles/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tiles/Tiles/GUI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tiles/Tiles/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tiles/Tiles/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tiles/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tiles/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tiles/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tiles/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tiles/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tiles/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tiles/TilesGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tiles/TilesGen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tiles/tiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tiles/tiles.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,10 +61,15 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ricardo\IdeaProjects\Tiles" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -167,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643692222568</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="exit works but not restart">
+      <created>1643785661865</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1643785661865</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +224,7 @@
     <MESSAGE value="added hbox laber" />
     <MESSAGE value="tiles class track down all the tiles in the game" />
     <MESSAGE value="click on event when click a tile" />
-    <option name="LAST_COMMIT_MESSAGE" value="click on event when click a tile" />
+    <MESSAGE value="exit works but not restart" />
+    <option name="LAST_COMMIT_MESSAGE" value="exit works but not restart" />
   </component>
 </project>

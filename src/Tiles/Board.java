@@ -1,4 +1,6 @@
 package Tiles;
+import javafx.application.Platform;
+import javafx.event.ActionEvent;
 import javafx.scene.Parent;
 import javafx.scene.layout.FlowPane;
 import javafx.geometry.Insets;
@@ -47,12 +49,15 @@ public class Board {
         Button start = new Button();
         start.setText("Restart");
         start.setFont(setFontt());
+        start.setOnAction((ActionEvent event) -> {
+            root.getChildren().removeAll(oneGui);
+        });
 
         Button exit = new Button();
         exit.setText("Exit");
         exit.setFont(setFontt());
-        exit.setOnMouseClicked(event -> {
-
+        exit.setOnAction((ActionEvent event) -> {
+            Platform.exit();
         });
         HBox hBox = new HBox(hBoxButtonSpacing,start,exit);
         hBox.setPadding(new Insets(15,0,0,20));

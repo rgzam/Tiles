@@ -1,4 +1,5 @@
 package Tiles;
+import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 
 import javafx.scene.control.Label;
@@ -80,9 +81,15 @@ this.setOnMouseClicked(event -> {
  }
  public HBox label() {
  Text currentCombo = new Text("Current Combo: " + getCurrentCombo());
+ currentCombo.setText("Current Combo" +getCurrentCombo());
+  System.out.println(currentCombo);
+
+  currentCombo.setFont(new Board().setFontt());
+
  Label longestCombo = new Label("Longest Combo: 0 ");
  longestCombo.setAlignment(Pos.BASELINE_CENTER);
  longestCombo.setFont(new Board().setFontt());
+ longestCombo.setPadding(new Insets(0,0,15,0));
   HBox hBox = new HBox(hBoxLabelSpacing, currentCombo, longestCombo);
   return  (hBox);
  }

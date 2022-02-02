@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Tiles:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f06ddcc-10d6-427e-b7a8-44b03a3aa9a8" name="Changes" comment="exit works but not restart">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Tiles_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tiles/Tiles/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tiles/Tiles/Board.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tiles/Tiles/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tiles/Tiles/GUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tiles/Tiles/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tiles/Tiles/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tiles/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tiles/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tiles/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tiles/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tiles/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tiles/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tiles/TilesGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tiles/TilesGen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tiles/tiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tiles/tiles.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +65,7 @@
       <recent name="C:\Users\Ricardo\IdeaProjects\Tiles" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="JAR Application.TilesV1.jar">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tiles.Main" />
       <module name="Tiles" />
@@ -105,8 +99,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TilesV1.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/TilesV1.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tiles.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/Tiles.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.TilesV1.jar" />
+        <item itemvalue="JAR Application.Tiles.jar" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>

@@ -10,8 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f06ddcc-10d6-427e-b7a8-44b03a3aa9a8" name="Changes" comment="f3">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Tiles_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tiles.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tiles.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TilesV1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tiles/Tiles/Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tiles/Tiles/GUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tiles/Tiles/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="module-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -51,7 +56,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/javafx-sdk-17.0.2/bin/vcruntime140_1.dll" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -67,11 +72,12 @@
       <recent name="C:\Users\Ricardo\IdeaProjects\Tiles" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Ricardo\IdeaProjects\Tiles\out\artifacts" />
       <recent name="C:\Users\Ricardo\IdeaProjects\Tiles" />
+      <recent name="C:\Users\Ricardo\IdeaProjects\Tiles\out" />
+      <recent name="C:\Users\Ricardo\IdeaProjects\Tiles\out\artifacts" />
     </key>
   </component>
-  <component name="RunManager" selected="JAR Application.TilesV1.jar">
+  <component name="RunManager" selected="JAR Application.Tiles.jar (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tiles.Main" />
       <module name="Tiles" />
@@ -111,6 +117,10 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2" />
     </configuration>
+    <configuration name="Tiles.jar (1)" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/Tiles_jar/Tiles.jar" />
+      <method v="2" />
+    </configuration>
     <configuration name="Tiles.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/Tiles.jar" />
       <method v="2" />
@@ -120,12 +130,14 @@
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="JAR Application.Tiles.jar" />
       <item itemvalue="JAR Application.TilesV1.jar" />
+      <item itemvalue="JAR Application.Tiles.jar (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JAR Application.TilesV1.jar" />
+        <item itemvalue="JAR Application.Tiles.jar (1)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="JAR Application.Tiles.jar" />
+        <item itemvalue="JAR Application.TilesV1.jar" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>

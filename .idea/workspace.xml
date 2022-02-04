@@ -9,14 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f06ddcc-10d6-427e-b7a8-44b03a3aa9a8" name="Changes" comment="f3">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Tiles_jar.xml" beforeDir="false" />
+    <list default="true" id="4f06ddcc-10d6-427e-b7a8-44b03a3aa9a8" name="Changes" comment="Jar finally worked">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tiles.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tiles.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TilesV1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tiles/Tiles/Board.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tiles/Tiles/GUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tiles/Tiles/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643838146903</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Jar finally worked">
+      <created>1643940615141</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1643940615141</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +272,7 @@
     <MESSAGE value="exit works but not restart" />
     <MESSAGE value="f2" />
     <MESSAGE value="f3" />
-    <option name="LAST_COMMIT_MESSAGE" value="f3" />
+    <MESSAGE value="Jar finally worked" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jar finally worked" />
   </component>
 </project>
